@@ -1,9 +1,7 @@
-import { destroyCookie } from "nookies"
 import { useContext, useEffect } from "react"
 import { AuthContext } from "../src/contexts/AuthContext"
 import { setupAPIClient } from "../src/services/api"
 import { api } from "../src/services/apiClient"
-import { AuthTokenError } from "../src/services/errors/AuthTokenError"
 import { withSSRAuth } from "../src/utils/withSSRAuth"
 
 export default function Dashboard(){
